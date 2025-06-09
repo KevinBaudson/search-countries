@@ -37,7 +37,9 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+],
+{basename: "/search-countries",}
+);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
