@@ -1,0 +1,36 @@
+.hero{
+    width: 100%;
+    height: 70vh;
+    background-image:url('../../assets/hero-home.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 10px;
+}
+
+.title-home{
+    max-width: 600px;
+    text-align: center;
+    font-size: 4rem; 
+    line-height: 1;
+    padding: 5px;
+    font-weight: 400;
+    color: var(--color-text);
+    text-transform: uppercase;
+}
+.highlight{
+    color: var(--text-emphasis-color);
+    font-style: italic;
+    font-weight: 600;
+}
+
+.countries-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

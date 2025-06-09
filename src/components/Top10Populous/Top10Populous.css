@@ -1,0 +1,56 @@
+.populous-countries-section {
+  padding: 2rem;
+  border-radius: 8px;
+    color: var(--color-text);
+}
+
+.populous-countries-section h2 {
+  color: var(--color-primary);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.country-card {
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-muted);
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.country-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-rank {
+  font-weight: bold;
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+}
+
+.card-flag {
+  width: 60px;
+  height: 40px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+}
+
+.card-name {
+  font-size: 1rem;
+  color: var(--color-muted)!important;
+  margin: 0.25rem 0;
+}
+
+.card-area {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+}

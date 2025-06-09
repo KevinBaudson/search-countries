@@ -1,0 +1,39 @@
+.container-details{
+    width: 100%;
+    max-width: 1100px;
+    min-height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    & h1 {
+        text-align: center;
+        color: var(--color-text);
+    }
+}
+
+.country-data{
+    width: 100%;
+    height: 400px;
+    min-height: 300px;
+
+    display: flex;
+    color: var(--color-muted);
+    gap: 20px;
+    font-weight: 700;
+    & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+
+@media  ( max-width:715px) {
+    .country-data{
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,109 @@
+
+.countries-page {
+  padding: 2rem;
+  background-color: var(--color-surface);
+  border-radius: 8px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.countries-page h2 {
+  color: var(--color-muted) !important;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.countries-page input{
+    color: var(--color-muted);
+    outline: none;
+}
+.search-bar {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid var(--color-muted);
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+.countries-list-li {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+}
+
+
+.country-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background-color: #fff;
+  border: 1px solid var(--color-muted);
+  border-radius: 8px;
+  transition: box-shadow 0.2s ease, background-color 0.5s ease;
+}
+.country-item img {
+  width: 36px;
+  height: 24px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.country-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.country-name {
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--color-muted);
+}
+
+.country-region {
+  font-size: 0.85rem;
+  color: var(--color-muted);
+}
+.country-item:hover {
+    background-color: var(--color-primary);
+  cursor: pointer;
+}
+.button-wrapper {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.show-more-button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background-color: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition:  0.3s ease;
+}
+
+.show-more-button:hover {
+  color: var(--text-emphasis-color);
+}
+
+/* Responsividade */
+@media (min-width: 600px) {
+  .countries-list-li{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .countries-list-li{
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
