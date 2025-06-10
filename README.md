@@ -1,12 +1,44 @@
-# React + Vite
+# 🌍 Countries Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web application built with **ReactJS** and **Vite** that allows users to explore detailed information about countries from around the world using the [REST Countries API](https://restcountries.com/).
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔎 Search for countries by name
+- 📊 View population, region, capital, and more
+- 🏳️ Display country flags and basic info
+- 🌐 Fully responsive layout with media queries
+- 🎨 Stylish UI using CSS with `background-attachment` effects
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **ReactJS** – For building the user interface
+- **Vite** – Fast development environment
+- **CSS3** – Custom styling and responsiveness
+- **REST Countries API** – Data provider for countries
+
+## 📸 Screenshots
+
+> *(Optional: Add screenshots or a short video preview of the app here)*
+
+## 📂 Project Structure
+
+/src
+├── components/ # Reusable components (Cards, Header, Footer, etc.)
+├── pages/ # Main views or routes
+├── services/ # API calls
+├── assets/ # Images, styles, etc.
+├── App.jsx # Root component
+└── main.jsx # App entry point
+
+
+## 📦 Installation
+
+Clone the repository and run the development server:
+
+```bash
+git clone https://github.com/seu-usuario/countries-explorer.git
+cd countries-explorer
+npm install
+npm run dev
+
