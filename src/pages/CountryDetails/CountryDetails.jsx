@@ -15,15 +15,15 @@ const CountryDetails = () => {
     });
   }, [code]);
 
-  if (!country) return <p>Carregando detalhes do país...</p>;
+  if (!country) return <p>Loading country details...</p>;
 
   return (
     <div className="container-details">
           <h1>{country.name.common}</h1>
       <div className="country-data">
           <img src={country.flags.png} alt={country.name.common} />
-          <p>Região: {country.region}</p>
-          <p>População: {country.population.toLocaleString()}</p>
+          <p>Region: {country.region}</p>
+          <p>Population: {country.population.toLocaleString()}</p>
           <p>Capital: {country.capital?.[0]}</p>
       </div>
     </div>
