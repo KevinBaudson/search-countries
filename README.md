@@ -1,4 +1,4 @@
-# 🌍 Countries Explorer
+# 🌍 Search Countries
 
 A responsive web application built with **ReactJS** and **Vite** that allows users to explore detailed information about countries from around the world using the [REST Countries API](https://restcountries.com/).
 
@@ -19,7 +19,7 @@ A responsive web application built with **ReactJS** and **Vite** that allows use
 
 ## 📸 Screenshots
 
-> *(Optional: Add screenshots or a short video preview of the app here)*
+![](./searchcountries.png)
 
 ## 📂 Project Structure
 
