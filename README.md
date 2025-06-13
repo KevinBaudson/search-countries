@@ -23,6 +23,7 @@ A responsive web application built with **ReactJS** and **Vite** that allows use
 
 ## 📂 Project Structure
 
+```
 /src
 ├── components/ # Reusable components (Cards, Header, Footer, etc.)
 ├── pages/ # Main views or routes
@@ -30,6 +31,7 @@ A responsive web application built with **ReactJS** and **Vite** that allows use
 ├── assets/ # Images, styles, etc.
 ├── App.jsx # Root component
 └── main.jsx # App entry point
+```
 
 
 ## 📦 Installation
